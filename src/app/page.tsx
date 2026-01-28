@@ -181,6 +181,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Protection by Device */}
+      <section className="py-24 px-6 bg-[#0A0A0F]">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="text-xs uppercase tracking-[0.3em] text-[#C7FF4D] mb-4 block">Protection by Device</span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">
+              Works where your kids actually are
+            </h2>
+            <p className="text-lg text-white/60 max-w-2xl mx-auto">
+              Different devices need different approaches. Nemyo adapts protection to each platform.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Desktop */}
+            <div className="p-8 bg-white/5 border border-white/10 rounded-3xl">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-3xl">💻</span>
+                <h3 className="text-xl font-semibold">Desktop &amp; Laptop</h3>
+              </div>
+              <p className="text-white/60 leading-relaxed mb-4">
+                Our Chrome extension runs invisibly in the background. When your child browses TikTok, YouTube, or searches for intense content, Nemyo quietly redirects to calmer alternatives — no blocking pages, no warnings they can see.
+              </p>
+              <p className="text-sm text-white/40 italic">
+                Requires Chrome browser with Nemyo extension installed.
+              </p>
+            </div>
+
+            {/* Mobile */}
+            <div className="p-8 bg-gradient-to-br from-[#C7FF4D]/10 to-transparent border border-[#C7FF4D]/30 rounded-3xl">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-3xl">📱</span>
+                <h3 className="text-xl font-semibold text-[#C7FF4D]">Phones &amp; Tablets</h3>
+              </div>
+              <p className="text-white/80 leading-relaxed mb-4">
+                Nemyo Shield uses safe DNS filtering at the system level, keeping all apps and browsers protected. Plus, the built-in Explore feature guides kids to curated, safe destinations for learning, creativity, and play.
+              </p>
+              <p className="text-sm text-white/50 italic">
+                Uses family-safe DNS. No traffic logging, no surveillance.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 p-6 bg-white/5 border border-white/10 rounded-2xl text-center">
+            <p className="text-white/60">
+              <span className="text-[#C7FF4D] font-medium">Explore</span> is a calm discovery space — not a browser. It launches kids into curated activities across Learn, Watch, Create, and Play categories. Guidance without surveillance.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Why Nemyo */}
       <section id="why" className="py-24 px-6 bg-gradient-to-b from-[#12141C] to-[#0A0A0F]">
         <div className="max-w-6xl mx-auto">
