@@ -33,20 +33,20 @@ export default function Home() {
         <div className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6 max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-white/70 mb-8">
             <span className="w-2 h-2 bg-[#C7FF4D] rounded-full animate-pulse" />
-            Not another spy app
+            The parental control kids can&apos;t bypass
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
-            Protection that{" "}
+            A safe phone.{" "}
             <span className="bg-gradient-to-r from-[#C7FF4D] via-[#A979F2] to-[#FFC72C] bg-clip-text text-transparent">
-              feels invisible
+              Not a prison.
             </span>
           </h1>
           
           <p className="text-lg md:text-xl text-white/60 max-w-2xl mb-10 leading-relaxed">
-            Nemyo softly redirects harmful content to calm alternatives. 
-            No blocked screens. No "you&apos;re being watched" messages. 
-            Just a gentler internet for your kids.
+            Nemyo doesn&apos;t just filter the internet—it creates a walled garden where kids
+            discover curated content through <strong className="text-white">Explore</strong>. 
+            No browsers. No TikTok. No workarounds.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           
           <p className="mt-6 text-sm text-white/40">
-            7-day free trial. No credit card required.
+            7-day free trial • Protect up to 5 devices • Cancel anytime
           </p>
         </div>
 
@@ -82,27 +82,27 @@ export default function Home() {
           <div className="text-center mb-16">
             <span className="text-xs uppercase tracking-[0.3em] text-[#FFC72C] mb-4 block">The Problem</span>
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Kids hate parental controls.<br/>
-              <span className="text-white/40">And they&apos;re right.</span>
+              Every parental control fails.<br/>
+              <span className="text-white/40">Until now.</span>
             </h2>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: "🚫",
-                title: "Scary block screens",
-                desc: "Nothing says 'I don't trust you' like a giant red 'BLOCKED' message. It creates shame and resentment."
+                icon: "🔓",
+                title: "Kids find workarounds",
+                desc: "DNS filters? They use VPNs. App blocks? They download alternatives. Browser controls? They use a friend's phone."
               },
               {
-                icon: "👁️",
-                title: "Surveillance feels creepy",
-                desc: "Apps that log every message and show 'monitoring active' alerts make kids feel like suspects, not children."
+                icon: "📱",
+                title: "Google is a gateway",
+                desc: "One search away from anything. Even with SafeSearch, kids find inappropriate content through image searches and links."
               },
               {
-                icon: "🏃",
-                title: "Kids bypass them anyway",
-                desc: "89% of parental control features are restrictive. Kids are motivated to find workarounds—and they do."
+                icon: "🎯",
+                title: "Apps exist outside control",
+                desc: "TikTok, Instagram, YouTube—each has millions of unmoderated videos. Filtering can't keep up with what's uploaded every minute."
               }
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white/5 border border-white/10 rounded-2xl">
@@ -115,118 +115,232 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works */}
-      <section id="how" className="py-24 px-6 bg-[#12141C]">
+      {/* The Nemyo Difference */}
+      <section className="py-24 px-6 bg-[#12141C]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-xs uppercase tracking-[0.3em] text-[#A979F2] mb-4 block">How it works</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-[#C7FF4D] mb-4 block">The Nemyo Approach</span>
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Redirect, don&apos;t block
+              Don&apos;t filter the internet.<br/>
+              <span className="text-[#C7FF4D]">Replace it.</span>
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
-              Instead of showing a scary "BLOCKED" page, Nemyo quietly guides your child to calmer content. They never know what they missed.
+              Instead of trying to block bad content (which never works), Nemyo blocks the apps themselves
+              and provides a curated alternative.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Visual representation */}
-            <div className="relative">
-              <div className="aspect-[4/3] bg-gradient-to-br from-white/5 to-white/0 border border-white/10 rounded-3xl p-8 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="flex items-center justify-center gap-4 mb-8">
-                    <div className="px-4 py-2 bg-red-500/20 border border-red-500/40 rounded-lg text-red-400 text-sm line-through opacity-50">
-                      Violent video
-                    </div>
-                    <svg className="w-8 h-8 text-[#C7FF4D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                    <div className="px-4 py-2 bg-[#C7FF4D]/20 border border-[#C7FF4D]/40 rounded-lg text-[#C7FF4D] text-sm">
-                      Calm playlist
-                    </div>
+          {/* Visual comparison */}
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            {/* Traditional approach */}
+            <div className="p-8 bg-red-500/5 border border-red-500/20 rounded-3xl">
+              <h3 className="text-xl font-semibold mb-6 text-red-400">❌ Traditional Parental Controls</h3>
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl">
+                  <span className="text-2xl">🔍</span>
+                  <div className="flex-1">
+                    <span className="text-white/60">Google</span>
+                    <span className="text-red-400 text-sm block">Tries to filter results → Kids use VPN</span>
                   </div>
-                  <p className="text-white/40 text-sm">Your child sees only the calm version</p>
+                </div>
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl">
+                  <span className="text-2xl">📱</span>
+                  <div className="flex-1">
+                    <span className="text-white/60">TikTok</span>
+                    <span className="text-red-400 text-sm block">Restricted Mode → Easily bypassed</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl">
+                  <span className="text-2xl">🌐</span>
+                  <div className="flex-1">
+                    <span className="text-white/60">Chrome</span>
+                    <span className="text-red-400 text-sm block">Site blocks → They use another browser</span>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Steps */}
-            <div className="space-y-8">
-              {[
-                {
-                  num: "01",
-                  title: "Harmful content detected",
-                  desc: "Nemyo recognizes concerning videos, games, or websites across TikTok, YouTube, Roblox, and more."
-                },
-                {
-                  num: "02", 
-                  title: "Invisible redirect",
-                  desc: "Instead of blocking, we quietly swap to a safe alternative. Same app, calmer content."
-                },
-                {
-                  num: "03",
-                  title: "No disruption",
-                  desc: "Your child continues scrolling naturally. No 'blocked' messages. No arguments. No bypass attempts."
-                }
-              ].map((step, i) => (
-                <div key={i} className="flex gap-6">
-                  <span className="text-[#A979F2] font-mono text-sm mt-1">{step.num}</span>
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                    <p className="text-white/60 leading-relaxed">{step.desc}</p>
+            {/* Nemyo approach */}
+            <div className="p-8 bg-[#C7FF4D]/10 border border-[#C7FF4D]/30 rounded-3xl">
+              <h3 className="text-xl font-semibold mb-6 text-[#C7FF4D]">✓ Nemyo Walled Garden</h3>
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl">
+                  <span className="text-2xl">🚫</span>
+                  <div className="flex-1">
+                    <span className="text-white/60">Google, Chrome, TikTok</span>
+                    <span className="text-[#C7FF4D] text-sm block">Completely blocked from network</span>
                   </div>
                 </div>
-              ))}
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl">
+                  <span className="text-2xl">🧭</span>
+                  <div className="flex-1">
+                    <span className="text-white/60">Nemyo Explore</span>
+                    <span className="text-[#C7FF4D] text-sm block">Curated YouTube Kids, PBS, Khan Academy</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl">
+                  <span className="text-2xl">✅</span>
+                  <div className="flex-1">
+                    <span className="text-white/60">Parent-Approved Apps</span>
+                    <span className="text-[#C7FF4D] text-sm block">Only what you allow can connect</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Protection by Device */}
-      <section className="py-24 px-6 bg-[#0A0A0F]">
+      {/* How It Works */}
+      <section id="how" className="py-24 px-6 bg-[#0A0A0F]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-xs uppercase tracking-[0.3em] text-[#C7FF4D] mb-4 block">Protection by Device</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-[#A979F2] mb-4 block">How it works</span>
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Works where your kids actually are
+              Three steps to a safer phone
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                num: "01",
+                icon: "📲",
+                title: "Install Nemyo Shield",
+                desc: "Install our app on your child's phone. It takes 2 minutes. The app quietly blocks dangerous apps from connecting to the internet."
+              },
+              {
+                num: "02",
+                icon: "🧒",
+                title: "Set their age",
+                desc: "Choose your child's age (3-5, 6-8, 9-12, or 13+). Explore automatically shows age-appropriate content in Learn, Watch, Create, and Play categories."
+              },
+              {
+                num: "03",
+                icon: "🛡️",
+                title: "They explore safely",
+                desc: "Your child uses Explore to discover content. YouTube Kids, Khan Academy, PBS—all curated. No random browsing. No surprises."
+              }
+            ].map((step, i) => (
+              <div key={i} className="p-8 bg-white/5 border border-white/10 rounded-3xl text-center">
+                <span className="text-[#A979F2] font-mono text-sm mb-4 block">{step.num}</span>
+                <span className="text-4xl mb-4 block">{step.icon}</span>
+                <h3 className="text-xl font-semibold mb-3">{step.title}</h3>
+                <p className="text-white/60 leading-relaxed">{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Explore Feature */}
+      <section className="py-24 px-6 bg-gradient-to-b from-[#0A0A0F] to-[#12141C]">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Content */}
+            <div>
+              <span className="text-xs uppercase tracking-[0.3em] text-[#C7FF4D] mb-4 block">Explore</span>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                Their gateway to<br/>the good stuff
+              </h2>
+              <p className="text-lg text-white/60 mb-8 leading-relaxed">
+                Explore isn&apos;t a browser—it&apos;s a curated discovery space. Kids tap into categories
+                like Learn, Watch, Create, and Play. Each destination is hand-picked for safety and quality.
+              </p>
+              
+              <div className="space-y-4">
+                {[
+                  { cat: "📚 Learn", items: "Khan Academy, National Geographic Kids, Britannica" },
+                  { cat: "🎬 Watch", items: "YouTube Kids, PBS Kids, TED-Ed" },
+                  { cat: "🎨 Create", items: "Scratch, Code.org, Tinkercad" },
+                  { cat: "🎮 Play", items: "PBS Games, Chess Kids, Cool Math" }
+                ].map((row, i) => (
+                  <div key={i} className="flex items-start gap-4 p-4 bg-white/5 rounded-xl">
+                    <span className="text-lg font-medium w-24">{row.cat}</span>
+                    <span className="text-white/60">{row.items}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Phone mockup */}
+            <div className="relative">
+              <div className="aspect-[9/16] max-w-[300px] mx-auto bg-gradient-to-br from-[#1a1f2e] to-[#0d1117] rounded-[3rem] border-4 border-white/10 p-4 shadow-2xl">
+                <div className="h-full bg-[#0A0A0F] rounded-[2.5rem] overflow-hidden">
+                  <div className="p-6">
+                    <div className="flex items-center justify-between mb-6">
+                      <div>
+                        <h4 className="text-lg font-semibold">Nemyo Shield</h4>
+                        <span className="text-xs text-white/40">Calm screen time</span>
+                      </div>
+                      <div className="px-3 py-1 bg-[#C7FF4D]/20 rounded-full">
+                        <span className="text-xs text-[#C7FF4D]">● Active</span>
+                      </div>
+                    </div>
+                    
+                    <div className="p-6 bg-gradient-to-br from-[#C7FF4D]/10 to-transparent rounded-2xl border border-[#C7FF4D]/20 mb-6">
+                      <div className="w-12 h-12 bg-[#C7FF4D]/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <span className="text-[#C7FF4D] text-xl">✓</span>
+                      </div>
+                      <p className="text-center text-sm text-white/80">All good</p>
+                      <p className="text-center text-xs text-white/40">Screen time is calm and safe</p>
+                    </div>
+                    
+                    <div className="p-4 bg-white/5 rounded-xl">
+                      <div className="flex items-center gap-3">
+                        <span className="text-lg">🧭</span>
+                        <div>
+                          <p className="font-medium text-sm">Explore</p>
+                          <p className="text-xs text-white/40">Discover learning & fun</p>
+                        </div>
+                        <span className="ml-auto text-white/40">→</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What Gets Blocked */}
+      <section className="py-24 px-6 bg-[#12141C]">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="text-xs uppercase tracking-[0.3em] text-[#FFC72C] mb-4 block">Protection</span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">
+              What Nemyo blocks
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
-              Different devices need different approaches. Nemyo adapts protection to each platform.
+              These apps can&apos;t connect to the internet while Nemyo Shield is active.
+              No workarounds. No exceptions.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Desktop */}
-            <div className="p-8 bg-white/5 border border-white/10 rounded-3xl">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-3xl">💻</span>
-                <h3 className="text-xl font-semibold">Desktop &amp; Laptop</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { name: "Chrome", icon: "🌐", reason: "Browser access" },
+              { name: "TikTok", icon: "📱", reason: "Unmoderated content" },
+              { name: "Instagram", icon: "📷", reason: "Social media" },
+              { name: "YouTube", icon: "▶️", reason: "Use YouTube Kids" },
+              { name: "Play Store", icon: "🛒", reason: "Unapproved apps" },
+              { name: "Google", icon: "🔍", reason: "Unfiltered search" },
+              { name: "Snapchat", icon: "👻", reason: "Disappearing content" },
+              { name: "Twitter/X", icon: "🐦", reason: "Adult content" }
+            ].map((app, i) => (
+              <div key={i} className="p-4 bg-white/5 border border-red-500/20 rounded-xl text-center">
+                <span className="text-3xl mb-2 block">{app.icon}</span>
+                <span className="font-medium block">{app.name}</span>
+                <span className="text-xs text-red-400">{app.reason}</span>
               </div>
-              <p className="text-white/60 leading-relaxed mb-4">
-                Our Chrome extension runs invisibly in the background. When your child browses TikTok, YouTube, or searches for intense content, Nemyo quietly redirects to calmer alternatives — no blocking pages, no warnings they can see.
-              </p>
-              <p className="text-sm text-white/40 italic">
-                Requires Chrome browser with Nemyo extension installed.
-              </p>
-            </div>
-
-            {/* Mobile */}
-            <div className="p-8 bg-gradient-to-br from-[#C7FF4D]/10 to-transparent border border-[#C7FF4D]/30 rounded-3xl">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-3xl">📱</span>
-                <h3 className="text-xl font-semibold text-[#C7FF4D]">Phones &amp; Tablets</h3>
-              </div>
-              <p className="text-white/80 leading-relaxed mb-4">
-                Nemyo Shield uses safe DNS filtering at the system level, keeping all apps and browsers protected. Plus, the built-in Explore feature guides kids to curated, safe destinations for learning, creativity, and play.
-              </p>
-              <p className="text-sm text-white/50 italic">
-                Uses family-safe DNS. No traffic logging, no surveillance.
-              </p>
-            </div>
+            ))}
           </div>
 
-          <div className="mt-8 p-6 bg-white/5 border border-white/10 rounded-2xl text-center">
-            <p className="text-white/60">
-              <span className="text-[#C7FF4D] font-medium">Explore</span> is a calm discovery space — not a browser. It launches kids into curated activities across Learn, Watch, Create, and Play categories. Guidance without surveillance.
+          <div className="mt-12 p-6 bg-[#C7FF4D]/10 border border-[#C7FF4D]/30 rounded-2xl text-center">
+            <p className="text-lg">
+              <span className="text-[#C7FF4D] font-semibold">Parent Override:</span>{" "}
+              <span className="text-white/80">You can approve specific apps if needed. WhatsApp, family communication apps, and essential services always work.</span>
             </p>
           </div>
         </div>
@@ -238,7 +352,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <span className="text-xs uppercase tracking-[0.3em] text-[#C7FF4D] mb-4 block">Why Nemyo</span>
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              What makes us different
+              The first parental control<br/>that actually works
             </h2>
           </div>
 
@@ -251,12 +365,12 @@ export default function Home() {
               </div>
               <ul className="space-y-4">
                 {[
-                  "Show 'BLOCKED' screens that shame kids",
-                  "Log every message and keystroke",
-                  "Display 'monitoring active' badges",
-                  "Create power struggles and arguments",
-                  "Kids learn to bypass restrictions",
-                  "Damage parent-child trust"
+                  "Try to filter content → Kids bypass it",
+                  "Block websites → Kids use apps instead",
+                  "Restrict apps → Kids download alternatives",
+                  "Monitor everything → Kids hide activity",
+                  "Show scary block screens → Creates resentment",
+                  "Eventually give up → Back to square one"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-white/40">
                     <span className="mt-1 text-red-400">✕</span>
@@ -269,17 +383,17 @@ export default function Home() {
             {/* Comparison card - Nemyo */}
             <div className="p-8 bg-gradient-to-br from-[#C7FF4D]/10 to-transparent border border-[#C7FF4D]/30 rounded-3xl">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-2xl">😌</span>
+                <span className="text-2xl">🛡️</span>
                 <h3 className="text-xl font-semibold text-[#C7FF4D]">Nemyo</h3>
               </div>
               <ul className="space-y-4">
                 {[
-                  "Invisibly redirects to calm content",
-                  "Never logs messages or keystrokes",
-                  "No 'you're being watched' alerts",
-                  "Works with child psychology, not against it",
-                  "Nothing to bypass—they don't know it's there",
-                  "Builds trust through gentle guidance"
+                  "Blocks apps entirely → Nothing to bypass",
+                  "No browsers at all → No web workarounds",
+                  "Blocks app stores → Can't download alternatives",
+                  "Provides Explore → Positive alternative",
+                  "No block screens → They don't know what they're missing",
+                  "Sustainable long-term → Peace of mind"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-white/90">
                     <span className="mt-1 text-[#C7FF4D]">✓</span>
@@ -292,24 +406,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Platforms */}
+      {/* Privacy Section */}
       <section className="py-24 px-6 bg-[#0A0A0F]">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="text-xs uppercase tracking-[0.3em] text-white/40 mb-4 block">Platforms</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
-            Protection where they need it
+          <span className="text-xs uppercase tracking-[0.3em] text-[#A979F2] mb-4 block">Privacy</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Protection without surveillance
           </h2>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <p className="text-lg text-white/60 mb-12 max-w-2xl mx-auto">
+            Nemyo is protection, not spyware. We don&apos;t track browsing history, read messages, or monitor activity.
+            We simply block dangerous apps and provide safe alternatives.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: "TikTok", icon: "📱" },
-              { name: "YouTube", icon: "▶️" },
-              { name: "Roblox", icon: "🎮" },
-              { name: "Browser", icon: "🌐" }
-            ].map((platform, i) => (
-              <div key={i} className="flex flex-col items-center gap-3 p-6 bg-white/5 border border-white/10 rounded-2xl">
-                <span className="text-4xl">{platform.icon}</span>
-                <span className="font-medium">{platform.name}</span>
+              {
+                icon: "🔒",
+                title: "No message logging",
+                desc: "We never read, store, or transmit any messages or personal content."
+              },
+              {
+                icon: "🚫",
+                title: "No location tracking",
+                desc: "We don't know where your child is. That's not our job."
+              },
+              {
+                icon: "📊",
+                title: "No activity reports",
+                desc: "We don't create 'screen time reports' or 'most visited' lists. Trust, not surveillance."
+              }
+            ].map((item, i) => (
+              <div key={i} className="p-6 bg-white/5 border border-white/10 rounded-2xl">
+                <span className="text-3xl mb-4 block">{item.icon}</span>
+                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+                <p className="text-white/60 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -336,11 +466,12 @@ export default function Home() {
             
             <ul className="space-y-3 text-left mb-8">
               {[
-                "Up to 5 devices",
-                "TikTok, YouTube, Roblox protection",
-                "Browser extension included",
-                "Invisible redirect technology",
-                "Parent dashboard",
+                "Up to 5 devices protected",
+                "Block browsers, TikTok, Instagram & more",
+                "Curated Explore content",
+                "Age-appropriate filtering (3-5, 6-12, 13+)",
+                "Parent-approved app overrides",
+                "Chrome extension for desktop",
                 "7-day free trial"
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3">
@@ -364,11 +495,11 @@ export default function Home() {
       <section className="py-24 px-6 bg-[#12141C]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Ready for a calmer internet?
+            Ready to stop worrying?
           </h2>
           <p className="text-lg text-white/60 mb-10 max-w-xl mx-auto">
-            Join parents who chose gentle guidance over surveillance. 
-            Your kids will never know the difference—but you will.
+            Join parents who finally have peace of mind. No more checking their phone.
+            No more arguments about screen time. Just a safe, calm digital space.
           </p>
           
           <a 
@@ -391,13 +522,14 @@ export default function Home() {
             </div>
             
             <div className="flex items-center gap-6 text-sm text-white/40">
-              <a href="https://app.nemyo.uk/privacy" className="hover:text-white transition">Privacy</a>
-              <a href="https://app.nemyo.uk/terms" className="hover:text-white transition">Terms</a>
+              <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
+              <a href="/terms" className="hover:text-white transition">Terms of Service</a>
+              <a href="/refund" className="hover:text-white transition">Refund Policy</a>
               <a href="mailto:support@nemyo.uk" className="hover:text-white transition">Support</a>
             </div>
             
             <p className="text-sm text-white/40">
-              © 2026 NeoXten. All rights reserved.
+              © 2026 NeoXten Ltd. All rights reserved.
             </p>
           </div>
         </div>
