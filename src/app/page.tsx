@@ -39,7 +39,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
             A safe phone.{" "}
             <span className="bg-gradient-to-r from-[#C7FF4D] via-[#A979F2] to-[#FFC72C] bg-clip-text text-transparent">
-              Not a prison.
+              Full of wonder.
             </span>
           </h1>
           
