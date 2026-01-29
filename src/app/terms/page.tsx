@@ -80,7 +80,7 @@ export default function TermsOfService() {
 
             <h3 className="text-xl font-medium text-white/90 mt-6 mb-3">Free Trial</h3>
             <p className="text-white/70">
-              New accounts receive a 7-day free trial. You won't be charged until the trial ends. 
+              New accounts receive a 5-day free trial. You won't be charged until the trial ends. 
               Cancel anytime during the trial to avoid charges.
             </p>
 

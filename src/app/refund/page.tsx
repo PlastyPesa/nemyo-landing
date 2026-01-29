@@ -33,9 +33,9 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-4">7-Day Free Trial</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">5-Day Free Trial</h2>
             <p className="text-white/80 leading-relaxed">
-              Every new subscription starts with a <strong className="text-[#C7FF4D]">free 7-day trial</strong>.
+              Every new subscription starts with a <strong className="text-[#C7FF4D]">free 5-day trial</strong>.
             </p>
             <ul className="list-disc list-inside text-white/70 space-y-2 mt-4">
               <li>You won't be charged until the trial ends</li>

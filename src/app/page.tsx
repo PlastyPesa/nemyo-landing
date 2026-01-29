@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           
           <p className="mt-6 text-sm text-white/40">
-            7-day free trial • Protect up to 5 devices • Cancel anytime
+            5-day free trial • Protect up to 5 devices • Cancel anytime
           </p>
         </div>
 
@@ -472,7 +472,7 @@ export default function Home() {
                 "Age-appropriate filtering (3-5, 6-12, 13+)",
                 "Parent-approved app overrides",
                 "Chrome extension for desktop",
-                "7-day free trial"
+                "5-day free trial"
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3">
                   <span className="text-[#C7FF4D]">✓</span>
