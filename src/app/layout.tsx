@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Not another spy app. Nemyo softly redirects harmful content to calm alternatives. No blocked screens. No surveillance. Just a gentler internet for your kids.",
   keywords: ["parental control", "kids safety", "TikTok", "YouTube", "Roblox", "screen time", "digital wellness"],
-  authors: [{ name: "NeoXten" }],
+  authors: [{ name: "PLATYPESA S.R.L." }],
   openGraph: {
     title: "Nemyo – Protection that feels invisible",
     description: "Softly redirects harmful content to calm alternatives. No blocked screens. No surveillance.",

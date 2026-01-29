@@ -28,8 +28,8 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-semibold text-[#C7FF4D] mb-4">Our Privacy Promise</h2>
             <p className="text-white/80 leading-relaxed">
               Nemyo is protection, not surveillance. We built Nemyo because we believe children deserve safety 
-              AND privacy. We don't read messages, track locations, or create activity reports. We simply 
-              block dangerous apps and provide safe alternatives.
+              AND privacy. We don't read messages, track locations, or monitor browsing history. We only log 
+              protection events (when Nemyo redirects harmful content), never what your child normally watches or does.
             </p>
           </section>
 
@@ -166,7 +166,7 @@ export default function PrivacyPolicy() {
 
           <section className="border-t border-white/10 pt-8 mt-12">
             <p className="text-white/40 text-sm">
-              Nemyo is operated by PlastyPesa S.R.L.<br />
+              Nemyo is operated by PLATYPESA S.R.L.<br />
               Registered in England and Wales.
             </p>
           </section>
@@ -191,7 +191,7 @@ export default function PrivacyPolicy() {
             </div>
             
             <p className="text-sm text-white/40">
-              © 2026 PlastyPesa S.R.L. All rights reserved.
+              © 2026 PLATYPESA S.R.L. All rights reserved.
             </p>
           </div>
         </div>
