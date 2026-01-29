@@ -166,7 +166,7 @@ export default function PrivacyPolicy() {
 
           <section className="border-t border-white/10 pt-8 mt-12">
             <p className="text-white/40 text-sm">
-              Nemyo is operated by NeoXten Ltd.<br />
+              Nemyo is operated by PlastyPesa S.R.L.<br />
               Registered in England and Wales.
             </p>
           </section>
@@ -191,7 +191,7 @@ export default function PrivacyPolicy() {
             </div>
             
             <p className="text-sm text-white/40">
-              © 2026 NeoXten Ltd. All rights reserved.
+              © 2026 PlastyPesa S.R.L. All rights reserved.
             </p>
           </div>
         </div>

@@ -37,9 +37,9 @@ export default function Home() {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
-            A safe phone.{" "}
+            Let kids explore.{" "}
             <span className="bg-gradient-to-r from-[#C7FF4D] via-[#A979F2] to-[#FFC72C] bg-clip-text text-transparent">
-              Full of wonder.
+              We handle the rest.
             </span>
           </h1>
           
@@ -529,7 +529,7 @@ export default function Home() {
             </div>
             
             <p className="text-sm text-white/40">
-              © 2026 NeoXten Ltd. All rights reserved.
+              © 2026 PlastyPesa S.R.L. All rights reserved.
             </p>
           </div>
         </div>

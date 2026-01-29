@@ -135,7 +135,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">8. Intellectual Property</h2>
             <p className="text-white/80 leading-relaxed">
-              Nemyo and its original content, features, and functionality are owned by NeoXten Ltd 
+              Nemyo and its original content, features, and functionality are owned by PlastyPesa S.R.L. 
               and are protected by international copyright, trademark, and other intellectual property laws.
             </p>
           </section>
@@ -201,7 +201,7 @@ export default function TermsOfService() {
 
           <section className="border-t border-white/10 pt-8 mt-12">
             <p className="text-white/40 text-sm">
-              Nemyo is operated by NeoXten Ltd.<br />
+              Nemyo is operated by PlastyPesa S.R.L.<br />
               Registered in England and Wales.
             </p>
           </section>
@@ -226,7 +226,7 @@ export default function TermsOfService() {
             </div>
             
             <p className="text-sm text-white/40">
-              © 2026 NeoXten Ltd. All rights reserved.
+              © 2026 PlastyPesa S.R.L. All rights reserved.
             </p>
           </div>
         </div>
