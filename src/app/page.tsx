@@ -46,7 +46,8 @@ export default function Home() {
           <p className="text-lg md:text-xl text-white/60 max-w-2xl mb-10 leading-relaxed">
             Nemyo doesn&apos;t just filter the internet—it creates a walled garden where kids
             discover curated content through <strong className="text-white">Explore</strong>. 
-            No browsers. No TikTok. No workarounds.
+            Age-aware protection: a 7-year-old gets strict blocking, a 14-year-old gets more freedom.
+            All controlled from your phone.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -206,14 +207,14 @@ export default function Home() {
               {
                 num: "01",
                 icon: "📲",
-                title: "Install Nemyo Shield",
-                desc: "Install our app on your child's phone. It takes 2 minutes. The app quietly blocks dangerous apps from connecting to the internet."
+                title: "Install two apps",
+                desc: "Parent app on YOUR phone (control everything). Nemyo Shield on THEIR phone (the protection). Pair them with a 6-digit code in 2 minutes."
               },
               {
                 num: "02",
                 icon: "🧒",
                 title: "Set their age",
-                desc: "Choose your child's age (3-5, 6-8, 9-12, or 13+). Explore automatically shows age-appropriate content in Learn, Watch, Create, and Play categories."
+                desc: "Choose their age band (3-5, 6-8, 9-12, 13-15, or 16-17). Both Explore content AND app blocks automatically adapt—younger kids get stricter protection, teens get more freedom."
               },
               {
                 num: "03",
@@ -327,7 +328,7 @@ export default function Home() {
               { name: "Play Store", icon: "🛒", reason: "Unapproved apps" },
               { name: "Google", icon: "🔍", reason: "Unfiltered search" },
               { name: "Snapchat", icon: "👻", reason: "Disappearing content" },
-              { name: "Twitter/X", icon: "🐦", reason: "Adult content" }
+              { name: "Facebook", icon: "👤", reason: "Social networking" }
             ].map((app, i) => (
               <div key={i} className="p-4 bg-white/5 border border-red-500/20 rounded-xl text-center">
                 <span className="text-3xl mb-2 block">{app.icon}</span>
@@ -339,8 +340,8 @@ export default function Home() {
 
           <div className="mt-12 p-6 bg-[#C7FF4D]/10 border border-[#C7FF4D]/30 rounded-2xl text-center">
             <p className="text-lg">
-              <span className="text-[#C7FF4D] font-semibold">Parent Override:</span>{" "}
-              <span className="text-white/80">You can approve specific apps if needed. WhatsApp, family communication apps, and essential services always work.</span>
+              <span className="text-[#C7FF4D] font-semibold">You&apos;re in control:</span>{" "}
+              <span className="text-white/80">Toggle any app on/off from your parent app. Allow YouTube for your 12-year-old but not your 7-year-old. WhatsApp and family apps always work.</span>
             </p>
           </div>
         </div>
@@ -432,8 +433,8 @@ export default function Home() {
               },
               {
                 icon: "📊",
-                title: "No activity reports",
-                desc: "We don't create 'screen time reports' or 'most visited' lists. Trust, not surveillance."
+                title: "No surveillance reports",
+                desc: "We don't track screen time, browsing history, or 'most visited' lists. Only protection events are logged."
               }
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white/5 border border-white/10 rounded-2xl">
@@ -469,7 +470,7 @@ export default function Home() {
                 "Up to 5 devices protected",
                 "Block browsers, TikTok, Instagram & more",
                 "Curated Explore content",
-                "Age-appropriate filtering (3-5, 6-12, 13+)",
+                "Age-aware protection (5 age bands: 3-17)",
                 "Parent-approved app overrides",
                 "Chrome extension for desktop",
                 "5-day free trial"
@@ -498,8 +499,8 @@ export default function Home() {
             Ready to stop worrying?
           </h2>
           <p className="text-lg text-white/60 mb-10 max-w-xl mx-auto">
-            Join parents who finally have peace of mind. No more checking their phone.
-            No more arguments about screen time. Just a safe, calm digital space.
+            Join thousands of parents who finally have peace of mind. Control everything from your phone.
+            See when their device is online. No more arguments about screen time. Just a safe, calm digital space.
           </p>
           
           <a 
@@ -518,18 +519,18 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-gradient-to-br from-[#C7FF4D] to-[#8BC34A] rounded-md" />
               <span className="font-semibold">Nemyo</span>
-              <span className="text-white/40 text-sm ml-2">by NeoXten</span>
+              <span className="text-white/40 text-sm ml-2">by PLATYPESA S.R.L.</span>
             </div>
             
             <div className="flex items-center gap-6 text-sm text-white/40">
-              <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
-              <a href="/terms" className="hover:text-white transition">Terms of Service</a>
-              <a href="/refund" className="hover:text-white transition">Refund Policy</a>
+              <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>
+              <Link href="/terms" className="hover:text-white transition">Terms of Service</Link>
+              <Link href="/refund" className="hover:text-white transition">Refund Policy</Link>
               <a href="mailto:support@nemyo.uk" className="hover:text-white transition">Support</a>
             </div>
             
             <p className="text-sm text-white/40">
-              © 2026 PlastyPesa S.R.L. All rights reserved.
+              © 2026 PLATYPESA S.R.L. All rights reserved.
             </p>
           </div>
         </div>
