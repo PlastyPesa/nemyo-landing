@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function RefundPolicy() {
   return (
@@ -9,7 +9,7 @@ export default function RefundPolicy() {
           <div className="w-8 h-8 bg-gradient-to-br from-[#C7FF4D] to-[#8BC34A] rounded-lg" />
           <span className="text-xl font-semibold tracking-tight">Nemyo</span>
         </Link>
-        <a 
+        <a
           href="https://app.nemyo.uk/signup"
           className="px-5 py-2.5 bg-white text-black text-sm font-medium rounded-full hover:bg-white/90 transition"
         >
@@ -23,19 +23,19 @@ export default function RefundPolicy() {
         <p className="text-white/60 mb-12">Last updated: January 28, 2026</p>
 
         <div className="prose prose-invert prose-lg max-w-none space-y-8">
-          
           <section className="bg-[#C7FF4D]/10 border border-[#C7FF4D]/30 rounded-2xl p-8">
             <h2 className="text-2xl font-semibold text-[#C7FF4D] mb-4">Our Promise</h2>
             <p className="text-white/90 leading-relaxed text-lg">
-              We want you to love Nemyo. If it's not right for your family, we'll make it right. 
-              No complicated forms. No arguing. Just reach out.
+              We want you to love Nemyo. If it's not right for your family, we'll make it right. No
+              complicated forms. No arguing. Just reach out.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">5-Day Free Trial</h2>
             <p className="text-white/80 leading-relaxed">
-              Every new subscription starts with a <strong className="text-[#C7FF4D]">free 5-day trial</strong>.
+              Every new subscription starts with a{' '}
+              <strong className="text-[#C7FF4D]">free 5-day trial</strong>.
             </p>
             <ul className="list-disc list-inside text-white/70 space-y-2 mt-4">
               <li>You won't be charged until the trial ends</li>
@@ -48,8 +48,9 @@ export default function RefundPolicy() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">30-Day Money-Back Guarantee</h2>
             <p className="text-white/80 leading-relaxed">
-              If you're not satisfied within the <strong className="text-[#C7FF4D]">first 30 days</strong> after 
-              your trial ends, contact us for a full refund.
+              If you're not satisfied within the{' '}
+              <strong className="text-[#C7FF4D]">first 30 days</strong> after your trial ends,
+              contact us for a full refund.
             </p>
             <ul className="list-disc list-inside text-white/70 space-y-2 mt-4">
               <li>Full refund of your payment—no partial refunds, the whole thing</li>
@@ -64,29 +65,35 @@ export default function RefundPolicy() {
             <p className="text-white/80 leading-relaxed mb-4">
               Canceling is easy and has predictable outcomes:
             </p>
-            
+
             <div className="bg-white/5 border border-white/10 rounded-xl p-6 space-y-4">
               <div className="flex items-start gap-4">
                 <span className="text-2xl">📅</span>
                 <div>
                   <h3 className="font-semibold text-white">Your subscription stays active</h3>
-                  <p className="text-white/60 text-sm">Protection continues until the end of your current billing period</p>
+                  <p className="text-white/60 text-sm">
+                    Protection continues until the end of your current billing period
+                  </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <span className="text-2xl">💳</span>
                 <div>
                   <h3 className="font-semibold text-white">No more charges</h3>
-                  <p className="text-white/60 text-sm">You will NOT be billed again after cancellation. Ever.</p>
+                  <p className="text-white/60 text-sm">
+                    You will NOT be billed again after cancellation. Ever.
+                  </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <span className="text-2xl">🔄</span>
                 <div>
                   <h3 className="font-semibold text-white">You can come back</h3>
-                  <p className="text-white/60 text-sm">Reactivate anytime—your devices and settings are saved for 30 days</p>
+                  <p className="text-white/60 text-sm">
+                    Reactivate anytime—your devices and settings are saved for 30 days
+                  </p>
                 </div>
               </div>
             </div>
@@ -99,7 +106,10 @@ export default function RefundPolicy() {
             </p>
             <ul className="list-disc list-inside text-white/70 space-y-2 mt-4">
               <li>You can cancel anytime to prevent future charges</li>
-              <li>If you experience technical issues we can't resolve, contact us—we'll work something out</li>
+              <li>
+                If you experience technical issues we can't resolve, contact us—we'll work something
+                out
+              </li>
               <li>We're reasonable people. If something went wrong, just talk to us.</li>
             </ul>
           </section>
@@ -108,8 +118,8 @@ export default function RefundPolicy() {
             <h2 className="text-2xl font-semibold text-white mb-4">How to Request a Refund</h2>
             <div className="bg-white/5 border border-white/10 rounded-xl p-6">
               <p className="text-white/80 mb-4">Send an email to:</p>
-              <a 
-                href="mailto:support@nemyo.uk?subject=Refund%20Request" 
+              <a
+                href="mailto:support@nemyo.uk?subject=Refund%20Request"
                 className="text-xl font-semibold text-[#C7FF4D] hover:underline"
               >
                 support@nemyo.uk
@@ -127,21 +137,34 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-4">Subscriptions Through App Stores</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">
+              Subscriptions Through App Stores
+            </h2>
             <p className="text-white/80 leading-relaxed">
-              If you subscribed through <strong>Google Play</strong> or the <strong>Apple App Store</strong>, 
-              refunds are handled by those platforms according to their policies.
+              If you subscribed through <strong>Google Play</strong> or the{' '}
+              <strong>Apple App Store</strong>, refunds are handled by those platforms according to
+              their policies.
             </p>
             <ul className="list-disc list-inside text-white/70 space-y-2 mt-4">
               <li>
-                <strong className="text-white">Google Play:</strong>{" "}
-                <a href="https://support.google.com/googleplay/answer/2479637" className="text-[#C7FF4D] hover:underline" target="_blank" rel="noopener">
+                <strong className="text-white">Google Play:</strong>{' '}
+                <a
+                  href="https://support.google.com/googleplay/answer/2479637"
+                  className="text-[#C7FF4D] hover:underline"
+                  target="_blank"
+                  rel="noopener"
+                >
                   Request a refund
                 </a>
               </li>
               <li>
-                <strong className="text-white">Apple App Store:</strong>{" "}
-                <a href="https://support.apple.com/en-us/HT204084" className="text-[#C7FF4D] hover:underline" target="_blank" rel="noopener">
+                <strong className="text-white">Apple App Store:</strong>{' '}
+                <a
+                  href="https://support.apple.com/en-us/HT204084"
+                  className="text-[#C7FF4D] hover:underline"
+                  target="_blank"
+                  rel="noopener"
+                >
                   Request a refund
                 </a>
               </li>
@@ -154,21 +177,26 @@ export default function RefundPolicy() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">Questions?</h2>
             <p className="text-white/80 leading-relaxed">
-              We're here to help. If you have any questions about refunds or billing, 
-              don't hesitate to reach out.
+              We're here to help. If you have any questions about refunds or billing, don't hesitate
+              to reach out.
             </p>
             <ul className="list-none text-white/70 space-y-2 mt-4">
-              <li>Email: <a href="mailto:support@nemyo.uk" className="text-[#C7FF4D] hover:underline">support@nemyo.uk</a></li>
+              <li>
+                Email:{' '}
+                <a href="mailto:support@nemyo.uk" className="text-[#C7FF4D] hover:underline">
+                  support@nemyo.uk
+                </a>
+              </li>
             </ul>
           </section>
 
           <section className="border-t border-white/10 pt-8 mt-12">
             <p className="text-white/40 text-sm">
-              Nemyo is operated by PLATYPESA S.R.L.<br />
+              Nemyo is operated by PLATYPESA S.R.L.
+              <br />
               Registered in England and Wales.
             </p>
           </section>
-
         </div>
       </main>
 
@@ -180,17 +208,23 @@ export default function RefundPolicy() {
               <div className="w-6 h-6 bg-gradient-to-br from-[#C7FF4D] to-[#8BC34A] rounded-md" />
               <span className="font-semibold">Nemyo</span>
             </div>
-            
+
             <div className="flex items-center gap-6 text-sm text-white/40">
-              <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>
-              <Link href="/terms" className="hover:text-white transition">Terms of Service</Link>
-              <Link href="/refund" className="text-white">Refund Policy</Link>
-              <a href="mailto:support@nemyo.uk" className="hover:text-white transition">Support</a>
+              <Link href="/privacy" className="hover:text-white transition">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="hover:text-white transition">
+                Terms of Service
+              </Link>
+              <Link href="/refund" className="text-white">
+                Refund Policy
+              </Link>
+              <a href="mailto:support@nemyo.uk" className="hover:text-white transition">
+                Support
+              </a>
             </div>
-            
-            <p className="text-sm text-white/40">
-              © 2026 PLATYPESA S.R.L. All rights reserved.
-            </p>
+
+            <p className="text-sm text-white/40">© 2026 PLATYPESA S.R.L. All rights reserved.</p>
           </div>
         </div>
       </footer>

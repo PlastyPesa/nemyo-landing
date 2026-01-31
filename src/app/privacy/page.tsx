@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function PrivacyPolicy() {
   return (
@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
           <div className="w-8 h-8 bg-gradient-to-br from-[#C7FF4D] to-[#8BC34A] rounded-lg" />
           <span className="text-xl font-semibold tracking-tight">Nemyo</span>
         </Link>
-        <a 
+        <a
           href="https://app.nemyo.uk/signup"
           className="px-5 py-2.5 bg-white text-black text-sm font-medium rounded-full hover:bg-white/90 transition"
         >
@@ -23,24 +23,27 @@ export default function PrivacyPolicy() {
         <p className="text-white/60 mb-12">Last updated: January 28, 2026</p>
 
         <div className="prose prose-invert prose-lg max-w-none space-y-8">
-          
           <section>
             <h2 className="text-2xl font-semibold text-[#C7FF4D] mb-4">Our Privacy Promise</h2>
             <p className="text-white/80 leading-relaxed">
-              Nemyo is protection, not surveillance. We built Nemyo because we believe children deserve safety 
-              AND privacy. We don't read messages, track locations, or monitor browsing history. We only log 
-              protection events (when Nemyo redirects harmful content), never what your child normally watches or does.
+              Nemyo is protection, not surveillance. We built Nemyo because we believe children
+              deserve safety AND privacy. We don't read messages, track locations, or monitor
+              browsing history. We only log protection events (when Nemyo redirects harmful
+              content), never what your child normally watches or does.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">Information We Collect</h2>
-            
+
             <h3 className="text-xl font-medium text-white/90 mt-6 mb-3">Account Information</h3>
             <ul className="list-disc list-inside text-white/70 space-y-2">
               <li>Email address (for account creation and communication)</li>
               <li>Password (encrypted, we cannot read it)</li>
-              <li>Payment information (processed securely by Stripe—we never see your full card number)</li>
+              <li>
+                Payment information (processed securely by Stripe—we never see your full card
+                number)
+              </li>
             </ul>
 
             <h3 className="text-xl font-medium text-white/90 mt-6 mb-3">Device Information</h3>
@@ -67,14 +70,26 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">How Nemyo Works (Technical)</h2>
             <p className="text-white/80 leading-relaxed mb-4">
-              Nemyo Shield uses Android's VPN API to control which apps can access the internet. 
+              Nemyo Shield uses Android's VPN API to control which apps can access the internet.
               Here's exactly what happens:
             </p>
             <ul className="list-disc list-inside text-white/70 space-y-2">
-              <li><strong className="text-white">Blocked apps</strong> (Chrome, TikTok, etc.) have their network traffic stopped locally on the device</li>
-              <li><strong className="text-white">Allowed apps</strong> (WhatsApp, YouTube Kids, etc.) work normally</li>
-              <li><strong className="text-white">DNS filtering</strong> uses Cloudflare Family (1.1.1.3) to block adult websites</li>
-              <li><strong className="text-white">No data leaves the device</strong>—blocking happens entirely on-device</li>
+              <li>
+                <strong className="text-white">Blocked apps</strong> (Chrome, TikTok, etc.) have
+                their network traffic stopped locally on the device
+              </li>
+              <li>
+                <strong className="text-white">Allowed apps</strong> (WhatsApp, YouTube Kids, etc.)
+                work normally
+              </li>
+              <li>
+                <strong className="text-white">DNS filtering</strong> uses Cloudflare Family
+                (1.1.1.3) to block adult websites
+              </li>
+              <li>
+                <strong className="text-white">No data leaves the device</strong>—blocking happens
+                entirely on-device
+              </li>
             </ul>
             <p className="text-white/60 mt-4 text-sm">
               We never intercept, read, or transmit the content of your child's internet traffic.
@@ -95,17 +110,19 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">Data Storage & Security</h2>
             <p className="text-white/80 leading-relaxed">
-              Your data is stored securely using Google Firebase, which provides enterprise-grade security. 
-              All data is encrypted in transit (TLS) and at rest. We implement strict access controls 
-              and follow security best practices.
+              Your data is stored securely using Google Firebase, which provides enterprise-grade
+              security. All data is encrypted in transit (TLS) and at rest. We implement strict
+              access controls and follow security best practices.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-4">Children's Privacy (COPPA Compliance)</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">
+              Children's Privacy (COPPA Compliance)
+            </h2>
             <p className="text-white/80 leading-relaxed">
-              Nemyo is designed for parents to protect their children. We do not collect personal 
-              information directly from children under 13. The parent account holder controls all 
+              Nemyo is designed for parents to protect their children. We do not collect personal
+              information directly from children under 13. The parent account holder controls all
               settings and is responsible for any child profiles created.
             </p>
           </section>
@@ -116,11 +133,22 @@ export default function PrivacyPolicy() {
               If you're in the European Union, you have the following rights:
             </p>
             <ul className="list-disc list-inside text-white/70 space-y-2">
-              <li><strong className="text-white">Access:</strong> Request a copy of your personal data</li>
-              <li><strong className="text-white">Rectification:</strong> Correct inaccurate data</li>
-              <li><strong className="text-white">Erasure:</strong> Request deletion of your data</li>
-              <li><strong className="text-white">Portability:</strong> Receive your data in a portable format</li>
-              <li><strong className="text-white">Objection:</strong> Object to certain processing</li>
+              <li>
+                <strong className="text-white">Access:</strong> Request a copy of your personal data
+              </li>
+              <li>
+                <strong className="text-white">Rectification:</strong> Correct inaccurate data
+              </li>
+              <li>
+                <strong className="text-white">Erasure:</strong> Request deletion of your data
+              </li>
+              <li>
+                <strong className="text-white">Portability:</strong> Receive your data in a portable
+                format
+              </li>
+              <li>
+                <strong className="text-white">Objection:</strong> Object to certain processing
+              </li>
             </ul>
             <p className="text-white/60 mt-4">
               To exercise these rights, email us at privacy@nemyo.uk
@@ -130,26 +158,52 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">Data Retention</h2>
             <p className="text-white/80 leading-relaxed">
-              We retain your data for as long as your account is active. If you cancel your subscription, 
-              we keep your data for 30 days in case you reactivate. After that, we delete your account 
-              and all associated data. You can request immediate deletion at any time.
+              We retain your data for as long as your account is active. If you cancel your
+              subscription, we keep your data for 30 days in case you reactivate. After that, we
+              delete your account and all associated data. You can request immediate deletion at any
+              time.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">Third-Party Services</h2>
             <ul className="list-disc list-inside text-white/70 space-y-2">
-              <li><strong className="text-white">Stripe:</strong> Payment processing (<a href="https://stripe.com/privacy" className="text-[#C7FF4D] hover:underline">their privacy policy</a>)</li>
-              <li><strong className="text-white">Google Firebase:</strong> Backend infrastructure (<a href="https://firebase.google.com/support/privacy" className="text-[#C7FF4D] hover:underline">their privacy policy</a>)</li>
-              <li><strong className="text-white">Cloudflare:</strong> DNS filtering (<a href="https://www.cloudflare.com/privacypolicy/" className="text-[#C7FF4D] hover:underline">their privacy policy</a>)</li>
+              <li>
+                <strong className="text-white">Stripe:</strong> Payment processing (
+                <a href="https://stripe.com/privacy" className="text-[#C7FF4D] hover:underline">
+                  their privacy policy
+                </a>
+                )
+              </li>
+              <li>
+                <strong className="text-white">Google Firebase:</strong> Backend infrastructure (
+                <a
+                  href="https://firebase.google.com/support/privacy"
+                  className="text-[#C7FF4D] hover:underline"
+                >
+                  their privacy policy
+                </a>
+                )
+              </li>
+              <li>
+                <strong className="text-white">Cloudflare:</strong> DNS filtering (
+                <a
+                  href="https://www.cloudflare.com/privacypolicy/"
+                  className="text-[#C7FF4D] hover:underline"
+                >
+                  their privacy policy
+                </a>
+                )
+              </li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">Changes to This Policy</h2>
             <p className="text-white/80 leading-relaxed">
-              We may update this Privacy Policy from time to time. We'll notify you of significant changes 
-              via email or through the app. Continued use of Nemyo after changes constitutes acceptance.
+              We may update this Privacy Policy from time to time. We'll notify you of significant
+              changes via email or through the app. Continued use of Nemyo after changes constitutes
+              acceptance.
             </p>
           </section>
 
@@ -159,18 +213,28 @@ export default function PrivacyPolicy() {
               Questions about privacy? We're here to help.
             </p>
             <ul className="list-none text-white/70 space-y-2 mt-4">
-              <li>Email: <a href="mailto:privacy@nemyo.uk" className="text-[#C7FF4D] hover:underline">privacy@nemyo.uk</a></li>
-              <li>General support: <a href="mailto:support@nemyo.uk" className="text-[#C7FF4D] hover:underline">support@nemyo.uk</a></li>
+              <li>
+                Email:{' '}
+                <a href="mailto:privacy@nemyo.uk" className="text-[#C7FF4D] hover:underline">
+                  privacy@nemyo.uk
+                </a>
+              </li>
+              <li>
+                General support:{' '}
+                <a href="mailto:support@nemyo.uk" className="text-[#C7FF4D] hover:underline">
+                  support@nemyo.uk
+                </a>
+              </li>
             </ul>
           </section>
 
           <section className="border-t border-white/10 pt-8 mt-12">
             <p className="text-white/40 text-sm">
-              Nemyo is operated by PLATYPESA S.R.L.<br />
+              Nemyo is operated by PLATYPESA S.R.L.
+              <br />
               Registered in England and Wales.
             </p>
           </section>
-
         </div>
       </main>
 
@@ -182,17 +246,23 @@ export default function PrivacyPolicy() {
               <div className="w-6 h-6 bg-gradient-to-br from-[#C7FF4D] to-[#8BC34A] rounded-md" />
               <span className="font-semibold">Nemyo</span>
             </div>
-            
+
             <div className="flex items-center gap-6 text-sm text-white/40">
-              <Link href="/privacy" className="text-white">Privacy Policy</Link>
-              <Link href="/terms" className="hover:text-white transition">Terms of Service</Link>
-              <Link href="/refund" className="hover:text-white transition">Refund Policy</Link>
-              <a href="mailto:support@nemyo.uk" className="hover:text-white transition">Support</a>
+              <Link href="/privacy" className="text-white">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="hover:text-white transition">
+                Terms of Service
+              </Link>
+              <Link href="/refund" className="hover:text-white transition">
+                Refund Policy
+              </Link>
+              <a href="mailto:support@nemyo.uk" className="hover:text-white transition">
+                Support
+              </a>
             </div>
-            
-            <p className="text-sm text-white/40">
-              © 2026 PLATYPESA S.R.L. All rights reserved.
-            </p>
+
+            <p className="text-sm text-white/40">© 2026 PLATYPESA S.R.L. All rights reserved.</p>
           </div>
         </div>
       </footer>
