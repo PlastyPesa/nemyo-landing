@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'screen time',
     'digital wellness',
   ],
-  authors: [{ name: 'PLATYPESA S.R.L.' }],
+  authors: [{ name: 'PLASTYPESA S.R.L.' }],
   openGraph: {
     title: 'Nemyo – Protection that feels invisible',
     description:

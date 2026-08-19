@@ -576,7 +576,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-gradient-to-br from-[#C7FF4D] to-[#8BC34A] rounded-md" />
               <span className="font-semibold">Nemyo</span>
-              <span className="text-white/40 text-sm ml-2">by PLATYPESA S.R.L.</span>
+              <span className="text-white/40 text-sm ml-2">by PLASTYPESA S.R.L.</span>
             </div>
 
             <div className="flex items-center gap-6 text-sm text-white/40">
@@ -594,7 +594,7 @@ export default function Home() {
               </a>
             </div>
 
-            <p className="text-sm text-white/40">© 2026 PLATYPESA S.R.L. All rights reserved.</p>
+            <p className="text-sm text-white/40">© 2026 PLASTYPESA S.R.L. All rights reserved.</p>
           </div>
         </div>
       </footer>

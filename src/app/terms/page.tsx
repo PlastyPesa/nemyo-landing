@@ -145,7 +145,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">8. Intellectual Property</h2>
             <p className="text-white/80 leading-relaxed">
-              Nemyo and its original content, features, and functionality are owned by PLATYPESA
+              Nemyo and its original content, features, and functionality are owned by PLASTYPESA
               S.R.L. and are protected by international copyright, trademark, and other intellectual
               property laws.
             </p>
@@ -198,8 +198,8 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">13. Governing Law</h2>
             <p className="text-white/80 leading-relaxed">
-              These Terms are governed by the laws of England and Wales. Any disputes shall be
-              resolved in the courts of England and Wales.
+              These Terms are governed by the laws of Romania. Any disputes shall be
+              resolved in the courts of Romania.
             </p>
           </section>
 
@@ -224,9 +224,9 @@ export default function TermsOfService() {
 
           <section className="border-t border-white/10 pt-8 mt-12">
             <p className="text-white/40 text-sm">
-              Nemyo is operated by PLATYPESA S.R.L.
+              Nemyo is operated by PLASTYPESA S.R.L.
               <br />
-              Registered in England and Wales.
+              Registered in Romania.
             </p>
           </section>
         </div>
@@ -256,7 +256,7 @@ export default function TermsOfService() {
               </a>
             </div>
 
-            <p className="text-sm text-white/40">© 2026 PLATYPESA S.R.L. All rights reserved.</p>
+            <p className="text-sm text-white/40">© 2026 PLASTYPESA S.R.L. All rights reserved.</p>
           </div>
         </div>
       </footer>

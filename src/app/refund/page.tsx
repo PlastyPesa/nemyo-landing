@@ -192,9 +192,9 @@ export default function RefundPolicy() {
 
           <section className="border-t border-white/10 pt-8 mt-12">
             <p className="text-white/40 text-sm">
-              Nemyo is operated by PLATYPESA S.R.L.
+              Nemyo is operated by PLASTYPESA S.R.L.
               <br />
-              Registered in England and Wales.
+              Registered in Romania.
             </p>
           </section>
         </div>
@@ -224,7 +224,7 @@ export default function RefundPolicy() {
               </a>
             </div>
 
-            <p className="text-sm text-white/40">© 2026 PLATYPESA S.R.L. All rights reserved.</p>
+            <p className="text-sm text-white/40">© 2026 PLASTYPESA S.R.L. All rights reserved.</p>
           </div>
         </div>
       </footer>
